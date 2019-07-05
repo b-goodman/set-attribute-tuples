@@ -7,6 +7,11 @@
   "files": [
     "dist/src"
   ],
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "./node_modules/.bin/jest"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/node": "^12.0.12",
